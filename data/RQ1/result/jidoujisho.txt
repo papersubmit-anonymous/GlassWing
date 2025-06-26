@@ -1,0 +1,225 @@
+File: outs\asm\audio_session\src\android.dart
+Class: AndroidAudioManager
+Method: AndroidAudioManager._
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f28]
+Channel Name: "com.ryanheise.android_audio_manager"
+URL: package:audio_session/src/android.dart
+Core IR: %7 = Instance_MethodChannel // [pp+0x4f28] Obj!MethodChannel@13f84d1
+----------------------------------------
+File: outs\asm\audio_session\src\android.dart
+Class: AndroidAudioManager
+Method: getDevices
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f28]
+Channel Name: "com.ryanheise.android_audio_manager"
+URL: package:audio_session/src/android.dart
+Core IR: %10 = Instance_MethodChannel // [pp+0x4f28] Obj!MethodChannel@13f84d1
+----------------------------------------
+File: outs\asm\audio_session\src\android.dart
+Class: AndroidAudioManager
+Method: abandonAudioFocus
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f28]
+Channel Name: "com.ryanheise.android_audio_manager"
+URL: package:audio_session/src/android.dart
+Core IR: %1 = Instance_MethodChannel // [pp+0x4f28] Obj!MethodChannel@13f84d1
+----------------------------------------
+File: outs\asm\audio_session\src\android.dart
+Class: AndroidAudioManager
+Method: requestAudioFocus
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f28]
+Channel Name: "com.ryanheise.android_audio_manager"
+URL: package:audio_session/src/android.dart
+Core IR: %10 = Instance_MethodChannel // [pp+0x4f28] Obj!MethodChannel@13f84d1
+----------------------------------------
+File: outs\asm\audio_session\src\core.dart
+Class: AudioSession
+Method: instance
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f90]
+Channel Name: "com.ryanheise.audio_session"
+URL: package:audio_session/src/core.dart
+Core IR: %3 = Instance_MethodChannel // [pp+0x4f90] Obj!MethodChannel@13f84f1
+----------------------------------------
+File: outs\asm\audio_session\src\core.dart
+Class: AudioSession
+Method: AudioSession._
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f90]
+Channel Name: "com.ryanheise.audio_session"
+URL: package:audio_session/src/core.dart
+Core IR: %46 = Instance_MethodChannel // [pp+0x4f90] Obj!MethodChannel@13f84f1
+----------------------------------------
+File: outs\asm\audio_session\src\core.dart
+Class: AudioSession
+Method: configure
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f90]
+Channel Name: "com.ryanheise.audio_session"
+URL: package:audio_session/src/core.dart
+Core IR: %18 = Instance_MethodChannel // [pp+0x4f90] Obj!MethodChannel@13f84f1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: AVAudioSession._
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %11 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: MethodChannel
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %1 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: availableInputs
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: currentRoute
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: setActive
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %11 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\audio_session\src\darwin.dart
+Class: AVAudioSession
+Method: setCategory
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4f80]
+Channel Name: "com.ryanheise.av_audio_session"
+URL: package:audio_session/src/darwin.dart
+Core IR: %16 = Instance_MethodChannel // [pp+0x4f80] Obj!MethodChannel@13f84b1
+----------------------------------------
+File: outs\asm\device_info_plus_platform_interface\device_info_plus_platform_interface.dart
+Class: DeviceInfoPlusPlatformInterfaceDeviceInfoPlusPlatformInterfaceTopLevel
+Method: DeviceInfoPlatform
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x308]
+Channel Name: "dev.fluttercommunity.plus/device_info"
+URL: package:device_info_plus_platform_interface/device_info_plus_platform_interface.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x308] Obj!MethodChannel@13f8831
+----------------------------------------
+File: outs\asm\device_info_plus_platform_interface\method_channel\method_channel_device_info.dart
+Class: MethodChannelDeviceInfo
+Method: deviceInfo
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x308]
+Channel Name: "dev.fluttercommunity.plus/device_info"
+URL: package:device_info_plus_platform_interface/method_channel/method_channel_device_info.dart
+Core IR: %3 = Instance_MethodChannel // [pp+0x308] Obj!MethodChannel@13f8831
+----------------------------------------
+File: outs\asm\flutter\src\services\mouse_cursor.dart
+Class: _SystemMouseCursorSession
+Method: activate
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x3938]
+Channel Name: "flutter/mousecursor"
+URL: package:flutter/src/services/mouse_cursor.dart
+Core IR: %15 = Instance_OptionalMethodChannel // [pp+0x3938] Obj!OptionalMethodChannel@13f8931
+----------------------------------------
+File: outs\asm\flutter_logs\flutter_logs.dart
+Class: FlutterLogsFlutterLogsTopLevel
+Method: logError
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x2c98]
+Channel Name: "flutter_logs"
+URL: package:flutter_logs/flutter_logs.dart
+Core IR: %12 = Instance_MethodChannel // [pp+0x2c98] Obj!MethodChannel@13f88f1
+----------------------------------------
+File: outs\asm\flutter_logs\flutter_logs.dart
+Class: FlutterLogsFlutterLogsTopLevel
+Method: initLogs
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x2c98]
+Channel Name: "flutter_logs"
+URL: package:flutter_logs/flutter_logs.dart
+Core IR: %45 = Instance_MethodChannel // [pp+0x2c98] Obj!MethodChannel@13f88f1
+----------------------------------------
+File: outs\asm\just_audio_platform_interface\method_channel_just_audio.dart
+Class: MethodChannelJustAudio
+Method: init
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x7c10]
+Channel Name: "com.ryanheise.just_audio.methods"
+URL: package:just_audio_platform_interface/method_channel_just_audio.dart
+Core IR: %4 = Instance_MethodChannel // [pp+0x7c10] Obj!MethodChannel@13f8511
+----------------------------------------
+File: outs\asm\just_audio_platform_interface\method_channel_just_audio.dart
+Class: MethodChannelJustAudio
+Method: disposeAllPlayers
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x7c10]
+Channel Name: "com.ryanheise.just_audio.methods"
+URL: package:just_audio_platform_interface/method_channel_just_audio.dart
+Core IR: %3 = Instance_MethodChannel // [pp+0x7c10] Obj!MethodChannel@13f8511
+----------------------------------------
+File: outs\asm\just_audio_platform_interface\method_channel_just_audio.dart
+Class: MethodChannelJustAudio
+Method: disposePlayer
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x7c10]
+Channel Name: "com.ryanheise.just_audio.methods"
+URL: package:just_audio_platform_interface/method_channel_just_audio.dart
+Core IR: %4 = Instance_MethodChannel // [pp+0x7c10] Obj!MethodChannel@13f8511
+----------------------------------------
+File: outs\asm\path_provider_platform_interface\path_provider_platform_interface.dart
+Class: PathProviderPlatformInterfacePathProviderPlatformInterfaceTopLevel
+Method: PathProviderPlatform
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x1e8]
+Channel Name: "plugins.flutter.io/path_provider"
+URL: package:path_provider_platform_interface/path_provider_platform_interface.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x1e8] Obj!MethodChannel@13f8491
+----------------------------------------
+File: outs\asm\path_provider_platform_interface\src\method_channel_path_provider.dart
+Class: MethodChannelPathProvider
+Method: getTemporaryPath
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x1e8]
+Channel Name: "plugins.flutter.io/path_provider"
+URL: package:path_provider_platform_interface/src/method_channel_path_provider.dart
+Core IR: %1 = Instance_MethodChannel // [pp+0x1e8] Obj!MethodChannel@13f8491
+----------------------------------------
+File: outs\asm\path_provider_platform_interface\src\method_channel_path_provider.dart
+Class: MethodChannelPathProvider
+Method: getApplicationSupportPath
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x1e8]
+Channel Name: "plugins.flutter.io/path_provider"
+URL: package:path_provider_platform_interface/src/method_channel_path_provider.dart
+Core IR: %1 = Instance_MethodChannel // [pp+0x1e8] Obj!MethodChannel@13f8491
+----------------------------------------
+File: outs\asm\path_provider_platform_interface\src\method_channel_path_provider.dart
+Class: MethodChannelPathProvider
+Method: getApplicationDocumentsPath
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x1e8]
+Channel Name: "plugins.flutter.io/path_provider"
+URL: package:path_provider_platform_interface/src/method_channel_path_provider.dart
+Core IR: %1 = Instance_MethodChannel // [pp+0x1e8] Obj!MethodChannel@13f8491
+----------------------------------------

@@ -1,0 +1,594 @@
+File: outs\asm\bluebubbles\app\layouts\setup\pages\sync\server_credentials.dart
+Class: _ServerCredentialsState
+Method: connect
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:bluebubbles/app/layouts/setup/pages/sync/server_credentials.dart
+Core IR: %108 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\bluebubbles\services\backend\lifecycle\lifecycle_service.dart
+Class: LifecycleService
+Method: didChangeAppLifecycleState
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:bluebubbles/services/backend/lifecycle/lifecycle_service.dart
+Core IR: %41 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\semantics\semantics_service.dart
+Class: FlutterSrcSemanticsSemanticsServiceTopLevel
+Method: announce
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63d0]
+Channel Name: "flutter/accessibility"
+URL: package:flutter/src/semantics/semantics_service.dart
+Core IR: %4 = Instance_BasicMessageChannel // [pp+0x63d0] Obj!BasicMessageChannel<Object?>@1280e91
+----------------------------------------
+File: outs\asm\flutter\src\semantics\semantics_service.dart
+Class: FlutterSrcSemanticsSemanticsServiceTopLevel
+Method: tooltip
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63d0]
+Channel Name: "flutter/accessibility"
+URL: package:flutter/src/semantics/semantics_service.dart
+Core IR: %5 = Instance_BasicMessageChannel // [pp+0x63d0] Obj!BasicMessageChannel<Object?>@1280e91
+----------------------------------------
+File: outs\asm\flutter\src\services\clipboard.dart
+Class: FlutterSrcServicesClipboardTopLevel
+Method: hasStrings
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/clipboard.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\clipboard.dart
+Class: FlutterSrcServicesClipboardTopLevel
+Method: getData
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/clipboard.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\clipboard.dart
+Class: FlutterSrcServicesClipboardTopLevel
+Method: setData
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/clipboard.dart
+Core IR: %7 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\haptic_feedback.dart
+Class: FlutterSrcServicesHapticFeedbackTopLevel
+Method: selectionClick
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/haptic_feedback.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\haptic_feedback.dart
+Class: FlutterSrcServicesHapticFeedbackTopLevel
+Method: lightImpact
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/haptic_feedback.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\haptic_feedback.dart
+Class: FlutterSrcServicesHapticFeedbackTopLevel
+Method: mediumImpact
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/haptic_feedback.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\haptic_feedback.dart
+Class: FlutterSrcServicesHapticFeedbackTopLevel
+Method: vibrate
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/haptic_feedback.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\hardware_keyboard.dart
+Class: HardwareKeyboard
+Method: syncKeyboardState
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x70a8]
+Channel Name: "flutter/keyboard"
+URL: package:flutter/src/services/hardware_keyboard.dart
+Core IR: %2 = Instance_OptionalMethodChannel // [pp+0x70a8] Obj!OptionalMethodChannel@1280dd1
+----------------------------------------
+File: outs\asm\flutter\src\services\live_text.dart
+Class: FlutterSrcServicesLiveTextTopLevel
+Method: isLiveTextInputAvailable
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/live_text.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\live_text.dart
+Class: FlutterSrcServicesLiveTextTopLevel
+Method: startLiveTextInput
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/live_text.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\mouse_cursor.dart
+Class: _SystemMouseCursorSession
+Method: activate
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x5c68]
+Channel Name: "flutter/mousecursor"
+URL: package:flutter/src/services/mouse_cursor.dart
+Core IR: %11 = Instance_OptionalMethodChannel // [pp+0x5c68] Obj!OptionalMethodChannel@1280d51
+----------------------------------------
+File: outs\asm\flutter\src\services\restoration.dart
+Class: RestorationManager
+Method: sendToEngine
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x70e0]
+Channel Name: "flutter/restoration"
+URL: package:flutter/src/services/restoration.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x70e0] Obj!OptionalMethodChannel@1280d91
+----------------------------------------
+File: outs\asm\flutter\src\services\restoration.dart
+Class: RestorationManager
+Method: initChannels
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x70e0]
+Channel Name: "flutter/restoration"
+URL: package:flutter/src/services/restoration.dart
+Core IR: %3 = Instance_OptionalMethodChannel // [pp+0x70e0] Obj!OptionalMethodChannel@1280d91
+----------------------------------------
+File: outs\asm\flutter\src\services\system_chrome.dart
+Class: FlutterSrcServicesSystemChromeTopLevel
+Method: <anonymous
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_chrome.dart
+Core IR: %6 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_chrome.dart
+Class: FlutterSrcServicesSystemChromeTopLevel
+Method: setPreferredOrientations
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_chrome.dart
+Core IR: %3 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_chrome.dart
+Class: FlutterSrcServicesSystemChromeTopLevel
+Method: setEnabledSystemUIMode
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_chrome.dart
+Core IR: %8 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_chrome.dart
+Class: FlutterSrcServicesSystemChromeTopLevel
+Method: setEnabledSystemUIMode
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_chrome.dart
+Core IR: %13 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_chrome.dart
+Class: FlutterSrcServicesSystemChromeTopLevel
+Method: setApplicationSwitcherDescription
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_chrome.dart
+Core IR: %10 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_navigator.dart
+Class: FlutterSrcServicesSystemNavigatorTopLevel
+Method: routeInformationUpdated
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x5578]
+Channel Name: "flutter/navigation"
+URL: package:flutter/src/services/system_navigator.dart
+Core IR: %9 = Instance_OptionalMethodChannel // [pp+0x5578] Obj!OptionalMethodChannel@1280d71
+----------------------------------------
+File: outs\asm\flutter\src\services\system_navigator.dart
+Class: FlutterSrcServicesSystemNavigatorTopLevel
+Method: pop
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_navigator.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_navigator.dart
+Class: FlutterSrcServicesSystemNavigatorTopLevel
+Method: setFrameworkHandlesBack
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_navigator.dart
+Core IR: %2 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\system_navigator.dart
+Class: FlutterSrcServicesSystemNavigatorTopLevel
+Method: selectSingleEntryHistory
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x5578]
+Channel Name: "flutter/navigation"
+URL: package:flutter/src/services/system_navigator.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x5578] Obj!OptionalMethodChannel@1280d71
+----------------------------------------
+File: outs\asm\flutter\src\services\system_sound.dart
+Class: FlutterSrcServicesSystemSoundTopLevel
+Method: play
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/services/system_sound.dart
+Core IR: %3 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: _PlatformTextInputControl
+Method: _channel
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %3 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: _PlatformTextInputControl
+Method: setStyle
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %20 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: _PlatformTextInputControl
+Method: setCaretRect
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %15 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: _PlatformTextInputControl
+Method: setComposingRect
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %15 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: TextInput._
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %9 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: TextInput._
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %11 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _requestAutofill
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %12 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _show
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %14 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _setEditableSizeAndTransform
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %22 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _clearClient
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %15 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _hide
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %14 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _setEditingState
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %16 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _setClient
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %23 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: _updateConfig
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %15 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\services\text_input.dart
+Class: TextInput
+Method: finishAutofillContext
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x7368]
+Channel Name: "flutter/textinput"
+URL: package:flutter/src/services/text_input.dart
+Core IR: %13 = Instance_OptionalMethodChannel // [pp+0x7368] Obj!OptionalMethodChannel@1280df1
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63c0]
+Channel Name: "flutter/system"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %13 = Instance_BasicMessageChannel // [pp+0x63c0] Obj!BasicMessageChannel<Object?>@1280ef1
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63d0]
+Channel Name: "flutter/accessibility"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %16 = Instance_BasicMessageChannel // [pp+0x63d0] Obj!BasicMessageChannel<Object?>@1280e91
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63e0]
+Channel Name: "flutter/lifecycle"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %19 = Instance_BasicMessageChannel // [pp+0x63e0] Obj!BasicMessageChannel<String?>@1280ed1
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %22 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initializationComplete
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %2 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: <anonymous
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x69a8]
+Channel Name: "flutter/keyevent"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %9 = Instance_BasicMessageChannel // [pp+0x69a8] Obj!BasicMessageChannel<Object?>@1280eb1
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x5578]
+Channel Name: "flutter/navigation"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %9 = Instance_OptionalMethodChannel // [pp+0x5578] Obj!OptionalMethodChannel@1280d71
+----------------------------------------
+File: outs\asm\flutter\src\widgets\binding.dart
+Class: FlutterSrcWidgetsBindingTopLevel
+Method: initInstances
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x5588]
+Channel Name: "flutter/backgesture"
+URL: package:flutter/src/widgets/binding.dart
+Core IR: %12 = Instance_OptionalMethodChannel // [pp+0x5588] Obj!OptionalMethodChannel@1280e11
+----------------------------------------
+File: outs\asm\flutter\src\widgets\editable_text.dart
+Class: EditableTextState
+Method: shareSelection
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/widgets/editable_text.dart
+Core IR: %12 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\widgets\editable_text.dart
+Class: EditableTextState
+Method: searchWebForSelection
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/widgets/editable_text.dart
+Core IR: %12 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\widgets\editable_text.dart
+Class: EditableTextState
+Method: lookUpSelection
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x55e0]
+Channel Name: "flutter/platform"
+URL: package:flutter/src/widgets/editable_text.dart
+Core IR: %13 = Instance_OptionalMethodChannel // [pp+0x55e0] Obj!OptionalMethodChannel@1280d31
+----------------------------------------
+File: outs\asm\flutter\src\widgets\navigator.dart
+Class: _RouteEntry
+Method: <anonymous
+Channel Type: BasicMessageChannel
+Object Pool Info: [pp+0x63d0]
+Channel Name: "flutter/accessibility"
+URL: package:flutter/src/widgets/navigator.dart
+Core IR: %10 = Instance_BasicMessageChannel // [pp+0x63d0] Obj!BasicMessageChannel<Object?>@1280e91
+----------------------------------------
+File: outs\asm\flutter\src\widgets\platform_menu_bar.dart
+Class: DefaultPlatformMenuDelegate
+Method: DefaultPlatformMenuDelegate
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x57c8]
+Channel Name: "flutter/menu"
+URL: package:flutter/src/widgets/platform_menu_bar.dart
+Core IR: %1 = Instance_OptionalMethodChannel // [pp+0x57c8] Obj!OptionalMethodChannel@1280db1
+----------------------------------------
+File: outs\asm\flutter\src\widgets\platform_menu_bar.dart
+Class: DefaultPlatformMenuDelegate
+Method: DefaultPlatformMenuDelegate
+Channel Type: OptionalMethodChannel
+Object Pool Info: [pp+0x57c8]
+Channel Name: "flutter/menu"
+URL: package:flutter/src/widgets/platform_menu_bar.dart
+Core IR: %4 = Instance_OptionalMethodChannel // [pp+0x57c8] Obj!OptionalMethodChannel@1280db1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\callback_dispatcher.dart
+Class: FlutterLocalNotificationsSrcCallbackDispatcherTopLevel
+Method: callbackDispatcher
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/callback_dispatcher.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\callback_dispatcher.dart
+Class: FlutterLocalNotificationsSrcCallbackDispatcherTopLevel
+Method: Null
+Channel Type: EventChannel
+Object Pool Info: [pp+0x4ea8]
+Channel Name: "dexterous.com/flutter/local_notifications/actions"
+URL: package:flutter_local_notifications/src/callback_dispatcher.dart
+Core IR: %12 = Instance_EventChannel // [pp+0x4ea8] Obj!EventChannel@1280811
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: FlutterLocalNotificationsSrcPlatformFlutterLocalNotificationsTopLevel
+Method: getActiveNotifications
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: FlutterLocalNotificationsSrcPlatformFlutterLocalNotificationsTopLevel
+Method: pendingNotificationRequests
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: FlutterLocalNotificationsSrcPlatformFlutterLocalNotificationsTopLevel
+Method: getNotificationAppLaunchDetails
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %2 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: AndroidFlutterLocalNotificationsPlugin
+Method: zonedSchedule
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %17 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: AndroidFlutterLocalNotificationsPlugin
+Method: initialize
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %4 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: AndroidFlutterLocalNotificationsPlugin
+Method: initialize
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %6 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: AndroidFlutterLocalNotificationsPlugin
+Method: show
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %15 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
+File: outs\asm\flutter_local_notifications\src\platform_flutter_local_notifications.dart
+Class: AndroidFlutterLocalNotificationsPlugin
+Method: cancel
+Channel Type: MethodChannel
+Object Pool Info: [pp+0x4e78]
+Channel Name: "dexterous.com/flutter/local_notifications"
+URL: package:flutter_local_notifications/src/platform_flutter_local_notifications.dart
+Core IR: %10 = Instance_MethodChannel // [pp+0x4e78] Obj!MethodChannel@12809f1
+----------------------------------------
