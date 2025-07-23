@@ -1,4 +1,12 @@
+<div align="center">
 # GlassWing: A Tailored Static Analysis Approach for Flutter Android Apps
+![GitHub contributors apktool-mcp-server](https://img.shields.io/github/contributors/zinja-coder/apktool-mcp-server)
+![GitHub all releases](https://img.shields.io/github/downloads/zinja-coder/apktool-mcp-server/total)
+![GitHub release (latest by SemVer)](https://img.shields.io/github/downloads/zinja-coder/apktool-mcp-server/latest/total)
+![Latest release](https://img.shields.io/github/release/zinja-coder/apktool-mcp-server.svg)
+![Python 3.10+](https://img.shields.io/badge/python-3%2E10%2B-blue)
+[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+</div>
 
 ![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
 
