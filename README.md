@@ -1,15 +1,41 @@
+#  GlassWing: A Tailored Static Analysis Approach for Flutter Android Apps
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub Stars](https://img.shields.io/github/stars/papersubmit-anonymous/GlassWing?style=social)](https://github.com/papersubmit-anonymous/GlassWing/stargazers)
+[![arXiv](https://img.shields.io/badge/arXiv-coming.soon-b31b1b.svg)](https://arxiv.org/abs/YOUR_PAPER_ID)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/papersubmit-anonymous/GlassWing/build.yml?branch=main)](https://github.com/papersubmit-anonymous/GlassWing/actions)
+
 <div align="center">
-# GlassWing: A Tailored Static Analysis Approach for Flutter Android Apps
-![GitHub contributors apktool-mcp-server](https://img.shields.io/github/contributors/zinja-coder/apktool-mcp-server)
-![GitHub all releases](https://img.shields.io/github/downloads/zinja-coder/apktool-mcp-server/total)
-![GitHub release (latest by SemVer)](https://img.shields.io/github/downloads/zinja-coder/apktool-mcp-server/latest/total)
-![Latest release](https://img.shields.io/github/release/zinja-coder/apktool-mcp-server.svg)
-![Python 3.10+](https://img.shields.io/badge/python-3%2E10%2B-blue)
-[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+**GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java by revealing their implicit invocation relations for a more comprehensive analysis.**
+![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
 </div>
 
-![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
+## 📖 Introduction
 
-The variety of mobile operating systems available in the market has led to the emergence of cross-platform frameworks, which simplify the development and deployment of mobile applications across multiple platforms simultaneously. Among these, the Flutter framework promoted by Google has become the most widely used cross-platform development framework. To date, no work has provided support for the static analysis of Flutter applications on the Android platform. State-of-the-art static analyzers fail to “see” the implicit invocation between the Dart language used by the Flutter framework and the Java used by the native Android platform, posing a significant threat to the completeness of the mobile software analysis. 
+With the rise of cross-platform frameworks, **Flutter**, introduced by Google, has become the most popular choice for mobile app development. However, existing static analysis tools (e.g., Soot, FlowDroid) fail to "see" the **implicit invocations** between the Dart language used by Flutter and the native Java code of the Android platform. This analytical blind spot poses a significant threat to the security and completeness of mobile software analysis.
 
-In this paper, we present GlassWing, the first tailored approach to static analysis for Flutter Android apps. GlassWing leverages a data-flow-oriented approach to conduct key program semantic extraction of Flutter apps and discloses the implicit Dart-Java invocation relations, thereby making cross-language invocation visible. Extensive evaluation on 1,023 popular real-world Flutter apps indicates that GlassWing enhances static analysis of Flutter apps integrated with Soot by parsing 141% more Jimple code lines, extending the call graph with more edges and nodes, and revealing almost 3X sensitive data leaks that were previously undetected with FlowDroid. GlassWing sheds light on downstream research fields for Flutter apps (e.g., program graph analysis, taint analysis, and malicious software analysis). Many current and future Android analysis initiatives can be enhanced by seamlessly incorporating GlassWing's insights.
+**GlassWing** is introduced to address this challenge. It is the first tailored static analysis approach for Flutter Android apps. By leveraging a data-flow-oriented approach, GlassWing extracts key program semantics and makes the previously invisible Dart-Java invocation relations visible, effectively bridging the cross-language analysis gap.
+
+## ✨ Core Features
+
+- **🎯 First-of-its-Kind**: The pioneering static analysis enhancement solution specifically for Flutter Android apps.
+- **🌉 Cross-Language Bridge**: Automatically identifies and resolves implicit calls between Flutter's Dart code and Android's native Java code.
+- **🔍 In-Depth Analysis**: Significantly enhances existing tools like Soot by increasing parsed code volume and call graph completeness.
+- **🛡️ Vulnerability Discovery**: Uncovers sensitive data leaks missed by traditional taint analysis tools like FlowDroid.
+- **🔌 Seamless Integration**: Can be easily incorporated into existing Android analysis pipelines, empowering downstream research fields such as program graph analysis, taint analysis, and malware detection.
+
+## 🛠️ How It Works
+
+The core mechanism of GlassWing involves parsing Flutter's AOT (Ahead-of-Time) compiled artifacts, correlating Dart call-site information with Android's Jimple intermediate representation, and ultimately constructing a more complete program call graph that includes these cross-language calls.
+
+## 📜 How to cite
+
+If you use GlassWing in your research, please cite our paper:
+
+## 🤝 Contribution Guide
+
+We welcome contributions in any form! Whether it's submitting issues, fixing bugs, or suggesting new features, please feel free to create a Pull Request.
+
+## 📄 License
+
+This project is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
