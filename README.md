@@ -8,7 +8,7 @@
 **GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java by revealing their implicit invocation relations for a more comprehensive analysis.**
 ![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
 
-PS: The jidoujisho APP in Dataset 1 exceeds GitHub's limits, so we provide a [OneDrive](https://1drv.ms/f/c/a2905014e63119d7/EmeemqEEqNRJgHevcu8uN3YBKKyAmT2qFZ5PcdAMP_-oqA?e=sUEkTJ) link for download 
+PS: The DataSet && artifacts, so we provide a [OneDrive](https://1drv.ms/f/c/a2905014e63119d7/EmeemqEEqNRJgHevcu8uN3YBKKyAmT2qFZ5PcdAMP_-oqA?e=sUEkTJ) link for download 
 
 ## 📖 Introduction
 
@@ -27,6 +27,18 @@ With the rise of cross-platform frameworks, **Flutter**, introduced by Google, h
 ## 🛠️ How It Works
 
 The core mechanism of GlassWing involves parsing Flutter's AOT (Ahead-of-Time) compiled artifacts, correlating Dart call-site information with Android's Jimple intermediate representation, and ultimately constructing a more complete program call graph that includes these cross-language calls.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java 17 or later
+- Python 3.9 or later
+
+### Find Java side-channel information
+```bash
+java -jar target/flowdroidtest-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
+```
 
 ## 📜 How to cite
 
