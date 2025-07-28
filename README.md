@@ -37,7 +37,7 @@ The core mechanism of GlassWing involves parsing Flutter's AOT (Ahead-of-Time) c
 
 ### Find Java side-channel information
 ```bash
-java -jar target/flowdroidtest-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
+java -jar target/NativeChannelAnalysis-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
 ```
 
 ## 📜 How to cite
