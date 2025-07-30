@@ -35,9 +35,9 @@ The core mechanism of GlassWing involves parsing Flutter's AOT (Ahead-of-Time) c
 - Java 17 or later
 - Python 3.9 or later
 
-### Find Java side-channel information
+### Run GlassWing
 ```bash
-java -jar target/NativeChannelAnalysis-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
+java -jar artifacts/GlassWing-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
 ```
 
 ## 📜 How to cite
