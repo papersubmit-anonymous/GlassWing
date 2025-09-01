@@ -1,0 +1,73 @@
+# FlowDroid 分析配置文件
+# 此文件包含 FlowDroid 静态分析工具的所有配置参数
+
+# Android SDK 平台 JAR 文件路径
+# 用于提供 Android 框架类的定义
+androidJars: "/Users/syc/Library/Android/sdk/platforms/android-30/android.jar"
+
+# Sources and Sinks 配置文件路径
+# 定义了数据流分析的源点和汇点
+sourcesAndSinks: "/Users/syc/Person/TMP/Batch/SourcesAndSinks.txt"
+
+# 要分析的 APK 文件路径
+# 支持 debug 和 release 版本的 APK
+apkPath: "/Users/syc/Person/TMP/Batch/xxxx/app-release.apk"
+
+# FlowDroid 分析结果输出文件路径（不包含扩展名）
+# FlowDroid 会自动添加适当的扩展名
+outputFile: "/Users/syc/Person/TMP/TmpAndroidProject/flowdroidFlutter"
+
+# CoreIR 目录路径
+# 用于 CoreIR 集成分析（如果启用）
+coreIRDir: "/Users/syc/Person/Work/Glasswing/DSIR/coreirtmpBatch/out"
+
+# 最终分析结果目录路径
+# 系统会根据 preprocessorType 自动生成对应的文件名：
+# - raw: analysis_results_raw.txt
+# - custom: analysis_results_custom.txt
+# - core: analysis_results_core.txt
+resultFile: "/Users/syc/Person/TMP/TmpAndroidProject/result/"
+
+# 分析超时配置（单位：秒）
+# 数据流分析超时时间
+dataFlowTimeout: 1800
+
+# 回调分析超时时间
+callbackAnalysisTimeout: 1800
+
+# 路径重建超时时间
+pathReconstructionTimeout: 1800
+
+# 预处理器类型选择
+# 可选值：
+#   - "raw": 不使用任何预处理器（默认）
+#   - "custom": 使用 CustomPreAnalysisHandler
+#   - "core": 使用 CorePreAnalysisHandler
+preprocessorType: "core"
+
+# DSIR 相关配置
+# DSIR批处理器可执行文件路径
+# 用于将 Blutter 输出转换为 CoreIR 格式
+dsirBatchProcessorPath: "/Users/syc/Person/TMP/Batch/coreir_processor_macos_arm64"
+
+# Blutter 输出目录路径
+# 包含 Blutter 反编译工具的输出结果
+# 这个目录将作为 dsir_batch_processor 的第一个参数
+blutterOutputDir: "/Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/out"
+# /Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/airdash
+
+# DSIR 输出目录路径
+# dsir_batch_processor 的输出目录
+# CoreIR 文件将生成在此目录的 "out" 子目录中
+# 实际的 coreIRDir 将自动设置为: dsirOutputDir + "/out"
+dsirOutputDir: "/Users/syc/Person/TMP/SootProject/coreirtmpBatch"
+
+# 注意：
+# 1. 所有路径都应该使用绝对路径以避免路径解析问题
+# 2. 如果某个配置项在 YAML 文件中不存在，将使用上述默认值
+# 3. 可以根据需要修改这些路径来适应不同的项目环境
+# 4. 确保所有引用的文件和目录都存在且可访问
+# 5. 超时时间以秒为单位，可以根据项目复杂度调整
+# 6. 预处理器类型决定了分析的深度和方式
+# 7. DSIR 配置用于 CoreIR 预处理，确保 dsir_batch_processor 具有执行权限
+# 8. 实际的 CoreIR 目录路径会自动从 dsirOutputDir 推导出来
