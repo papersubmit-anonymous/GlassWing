@@ -1,73 +1,73 @@
-# FlowDroid 分析配置文件
-# 此文件包含 FlowDroid 静态分析工具的所有配置参数
+# FlowDroid Analysis Configuration File
+# This file contains all configuration parameters for the FlowDroid static analysis tool.
 
-# Android SDK 平台 JAR 文件路径
-# 用于提供 Android 框架类的定义
+# Path to the Android SDK platform JAR file
+# Used to provide definitions for Android framework classes
 androidJars: "/Users/syc/Library/Android/sdk/platforms/android-30/android.jar"
 
-# Sources and Sinks 配置文件路径
-# 定义了数据流分析的源点和汇点
+# Path to the Sources and Sinks configuration file
+# Defines the sources and sinks for data flow analysis
 sourcesAndSinks: "/Users/syc/Person/TMP/Batch/SourcesAndSinks.txt"
 
-# 要分析的 APK 文件路径
-# 支持 debug 和 release 版本的 APK
+# Path to the APK file to be analyzed
+# Supports both debug and release versions of APKs
 apkPath: "/Users/syc/Person/TMP/Batch/xxxx/app-release.apk"
 
-# FlowDroid 分析结果输出文件路径（不包含扩展名）
-# FlowDroid 会自动添加适当的扩展名
+# Output file path for FlowDroid analysis results (without extension)
+# FlowDroid will automatically add the appropriate extension
 outputFile: "/Users/syc/Person/TMP/TmpAndroidProject/flowdroidFlutter"
 
-# CoreIR 目录路径
-# 用于 CoreIR 集成分析（如果启用）
+# CoreIR directory path
+# Used for CoreIR integration analysis (if enabled)
 coreIRDir: "/Users/syc/Person/Work/Glasswing/DSIR/coreirtmpBatch/out"
 
-# 最终分析结果目录路径
-# 系统会根据 preprocessorType 自动生成对应的文件名：
+# Final analysis result directory path
+# The system will automatically generate corresponding filenames based on preprocessorType:
 # - raw: analysis_results_raw.txt
 # - custom: analysis_results_custom.txt
 # - core: analysis_results_core.txt
 resultFile: "/Users/syc/Person/TMP/TmpAndroidProject/result/"
 
-# 分析超时配置（单位：秒）
-# 数据流分析超时时间
+# Analysis timeout configuration (in seconds)
+# Data flow analysis timeout
 dataFlowTimeout: 1800
 
-# 回调分析超时时间
+# Callback analysis timeout
 callbackAnalysisTimeout: 1800
 
-# 路径重建超时时间
+# Path reconstruction timeout
 pathReconstructionTimeout: 1800
 
-# 预处理器类型选择
-# 可选值：
-#   - "raw": 不使用任何预处理器（默认）
-#   - "custom": 使用 CustomPreAnalysisHandler
-#   - "core": 使用 CorePreAnalysisHandler
+# Preprocessor type selection
+# Possible values:
+#   - "raw": No preprocessor is used (default)
+#   - "custom": Use CustomPreAnalysisHandler
+#   - "core": Use CorePreAnalysisHandler
 preprocessorType: "core"
 
-# DSIR 相关配置
-# DSIR批处理器可执行文件路径
-# 用于将 Blutter 输出转换为 CoreIR 格式
+# DSIR related configuration
+# Path to the DSIR batch processor executable
+# Used to convert Blutter output to CoreIR format
 dsirBatchProcessorPath: "/Users/syc/Person/TMP/Batch/coreir_processor_macos_arm64"
 
-# Blutter 输出目录路径
-# 包含 Blutter 反编译工具的输出结果
-# 这个目录将作为 dsir_batch_processor 的第一个参数
+# Blutter output directory path
+# Contains the output results of the Blutter decompilation tool
+# This directory will be the first argument to dsir_batch_processor
 blutterOutputDir: "/Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/out"
 # /Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/airdash
 
-# DSIR 输出目录路径
-# dsir_batch_processor 的输出目录
-# CoreIR 文件将生成在此目录的 "out" 子目录中
-# 实际的 coreIRDir 将自动设置为: dsirOutputDir + "/out"
+# DSIR output directory path
+# Output directory for dsir_batch_processor
+# CoreIR files will be generated in the "out" subdirectory of this directory
+# The actual coreIRDir will be automatically set to: dsirOutputDir + "/out"
 dsirOutputDir: "/Users/syc/Person/TMP/SootProject/coreirtmpBatch"
 
-# 注意：
-# 1. 所有路径都应该使用绝对路径以避免路径解析问题
-# 2. 如果某个配置项在 YAML 文件中不存在，将使用上述默认值
-# 3. 可以根据需要修改这些路径来适应不同的项目环境
-# 4. 确保所有引用的文件和目录都存在且可访问
-# 5. 超时时间以秒为单位，可以根据项目复杂度调整
-# 6. 预处理器类型决定了分析的深度和方式
-# 7. DSIR 配置用于 CoreIR 预处理，确保 dsir_batch_processor 具有执行权限
-# 8. 实际的 CoreIR 目录路径会自动从 dsirOutputDir 推导出来
+# Note:
+# 1. All paths should be absolute to avoid path resolution issues.
+# 2. If a configuration item does not exist in the YAML file, the default value will be used.
+# 3. These paths can be modified to suit different project environments.
+# 4. Ensure that all referenced files and directories exist and are accessible.
+# 5. Timeouts are in seconds and can be adjusted based on project complexity.
+# 6. The preprocessor type determines the depth and method of analysis.
+# 7. DSIR configuration is used for CoreIR preprocessing, ensure dsir_batch_processor has execution permissions.
+# 8. The actual CoreIR directory path is automatically derived from dsirOutputDir.

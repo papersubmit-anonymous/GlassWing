@@ -30,14 +30,127 @@ The core mechanism of GlassWing involves parsing Flutter's AOT (Ahead-of-Time) c
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### **Directory Structure**
 
-- Java 17 or later
-- Python 3.9 or later
+```
+artifacts/
+├── flutter_apk_analyzer.py      # Main analysis script
+├── flowdroid-config.yaml        # FlowDroid configuration template
+├── Glasswing.jar               # Glasswing static analysis tool
+├── SourcesAndSinks.txt         # Data flow sources and sinks definition
+├── coreir_processor # CoreIR processor
+├── blutter-patch/              # Blutter decompilation tool
+│   ├── blutter.py             # Blutter main script
+│   └── ...                    # Other Blutter files
+├── apkdir/                     # APK files storage directory
+└── outdir/                     # Analysis results output directory
+```
 
-### Run GlassWing
+### System Requirements
+
+**Software Environment**
+
+- **Python 3.10+**
+- **Java 11+** (for running Glasswing.jar)
+
+**Python Dependencies**
+
 ```bash
-java -jar artifacts/GlassWing-1.0-SNAPSHOT-jar-with-dependencies.jar /path/to/your/app.apk
+pip install PyYAML
+```
+
+**Other Tools**
+
+- **Android SDK** (requires android.jar file)
+- **CMake** and **Ninja** (for Blutter compilation, if needed)
+
+### Configuration Steps
+
+#### Environment Setup
+
+**Install Python Dependencies**
+
+```bash
+# Install required Python packages
+pip install PyYAML
+
+# Or using conda
+conda install pyyaml
+```
+
+**Configure Android SDK**
+
+Ensure Android SDK is installed and note the `android.jar` file path, typically located at:
+```
+/Users/<username>/Library/Android/sdk/platforms/android-30/android.jar
+```
+
+#### Configuration File Setup
+
+**Modify flowdroid-config.yaml**
+
+Open the `flowdroid-config.yaml` file and modify the following paths according to your environment:
+
+```yaml
+# Android SDK platform JAR file path
+androidJars: "/Users/your_username/Library/Android/sdk/platforms/android-30/android.jar"
+
+# Sources and Sinks configuration file path
+sourcesAndSinks: "/Users/xxxxx/Person/TMP/Batch/SourcesAndSinks.txt"
+
+# DSIR batch processor executable path
+dsirBatchProcessorPath: "/Users/xxxxxx/Person/TMP/Batch/coreir_processor_macos_arm64"
+
+# Analysis timeout configuration (in seconds)
+dataFlowTimeout: 1800
+callbackAnalysisTimeout: 1800
+pathReconstructionTimeout: 1800
+```
+
+**Important Configuration Notes:**
+- `androidJars`: Update to your Android SDK path
+- `sourcesAndSinks`: Keep current path or modify based on actual location
+- `dsirBatchProcessorPath`: Ensure CoreIR processor has execution permissions
+- Timeout configuration: Adjust based on your hardware performance and APK complexity
+
+**Ensure Executable Permissions**
+
+```bash
+# Add execution permission to CoreIR processor
+chmod +x /Users/xxxxxx/Person/TMP/Batch/coreir_processor_macos_arm64
+
+# Add execution permission to Blutter script
+chmod +x /Users/xxxxxx/Person/TMP/Batch/blutter-patch/blutter.py
+```
+
+#### Prepare APK Files
+
+Place APK files to be analyzed in the `apkdir` directory:
+
+```bash
+# Create APK directory (if it doesn't exist)
+mkdir -p apkdir
+
+# Copy APK files to the directory
+cp /path/to/your/app.apk apkdir/
+cp /path/to/another/app.apk apkdir/
+```
+
+Supported file formats:
+- `.apk` files
+- `.APK` files (uppercase extension)
+
+### Usage
+
+```bash
+# Basic syntax
+python flutter_apk_analyzer.py <apk_directory> <output_directory>
+
+# Example: Analyze all APKs in apkdir, output results to outdir
+python flutter_apk_analyzer.py apkdir outdir
+
+# Using absolute paths
+python flutter_apk_analyzer.py /Users/xxxx/Person/TMP/Batch/apkdir /Users/xxxx/Person/TMP/Batch/outdir
 ```
 
 ## 📜 How to cite
