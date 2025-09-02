@@ -33,3 +33,17 @@
 | 29    | Group-track    | https://github.com/canopas/group-track-flutter         |
 | 30    | Harpy          | https://github.com/robertodoering/harpy                |
 
+# Leak insertion details
+
+## Airdash
+
+Channel：io.flown.airdash/communicator
+
+Source：android.telephony.TelephonyManager: java.lang.String getDeviceId()
+
+Sink：android.util.Log: int e(java.lang.String,java.lang.String)
+
+## Amiibo network
+
+
+
