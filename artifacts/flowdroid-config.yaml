@@ -3,30 +3,30 @@
 
 # Path to the Android SDK platform JAR file
 # Used to provide definitions for Android framework classes
-androidJars: "/Users/syc/Library/Android/sdk/platforms/android-30/android.jar"
+androidJars: "/Users/xxxx/Library/Android/sdk/platforms/android-30/android.jar"
 
 # Path to the Sources and Sinks configuration file
 # Defines the sources and sinks for data flow analysis
-sourcesAndSinks: "/Users/syc/Person/TMP/Batch/SourcesAndSinks.txt"
+sourcesAndSinks: "/Users/xxxx/Person/TMP/Batch/SourcesAndSinks.txt"
 
 # Path to the APK file to be analyzed
 # Supports both debug and release versions of APKs
-apkPath: "/Users/syc/Person/TMP/Batch/xxxx/app-release.apk"
+apkPath: "/Users/xxxx/Person/TMP/Batch/xxxx/app-release.apk"
 
 # Output file path for FlowDroid analysis results (without extension)
 # FlowDroid will automatically add the appropriate extension
-outputFile: "/Users/syc/Person/TMP/TmpAndroidProject/flowdroidFlutter"
+outputFile: "/Users/xxxx/Person/TMP/TmpAndroidProject/flowdroidFlutter"
 
 # CoreIR directory path
 # Used for CoreIR integration analysis (if enabled)
-coreIRDir: "/Users/syc/Person/Work/Glasswing/DSIR/coreirtmpBatch/out"
+coreIRDir: "/Users/xxxx/Person/Work/Glasswing/DSIR/coreirtmpBatch/out"
 
 # Final analysis result directory path
 # The system will automatically generate corresponding filenames based on preprocessorType:
 # - raw: analysis_results_raw.txt
 # - custom: analysis_results_custom.txt
 # - core: analysis_results_core.txt
-resultFile: "/Users/syc/Person/TMP/TmpAndroidProject/result/"
+resultFile: "/Users/xxxx/Person/TMP/TmpAndroidProject/result/"
 
 # Analysis timeout configuration (in seconds)
 # Data flow analysis timeout
@@ -48,19 +48,19 @@ preprocessorType: "core"
 # DSIR related configuration
 # Path to the DSIR batch processor executable
 # Used to convert Blutter output to CoreIR format
-dsirBatchProcessorPath: "/Users/syc/Person/TMP/Batch/coreir_processor_macos_arm64"
+dsirBatchProcessorPath: "/Users/xxxx/Person/TMP/Batch/coreir_processor_macos_arm64"
 
 # Blutter output directory path
 # Contains the output results of the Blutter decompilation tool
 # This directory will be the first argument to dsir_batch_processor
-blutterOutputDir: "/Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/out"
+blutterOutputDir: "/Users/xxxx/Person/TMP/TmpAndroidProject/blutter-patch-1/out"
 # /Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/airdash
 
 # DSIR output directory path
 # Output directory for dsir_batch_processor
 # CoreIR files will be generated in the "out" subdirectory of this directory
 # The actual coreIRDir will be automatically set to: dsirOutputDir + "/out"
-dsirOutputDir: "/Users/syc/Person/TMP/SootProject/coreirtmpBatch"
+dsirOutputDir: "/Users/xxxx/Person/TMP/SootProject/coreirtmpBatch"
 
 # Note:
 # 1. All paths should be absolute to avoid path resolution issues.
