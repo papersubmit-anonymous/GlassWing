@@ -99,7 +99,7 @@ androidJars: "/Users/your_username/Library/Android/sdk/platforms/android-30/andr
 sourcesAndSinks: "/Users/xxxxx/Person/TMP/Batch/SourcesAndSinks.txt"
 
 # DSIR batch processor executable path
-dsirBatchProcessorPath: "/Users/xxxxxx/Person/TMP/Batch/coreir_processor_macos_arm64"
+dsirBatchProcessorPath: "/Users/xxxxxx/Person/TMP/Batch/coreir_processor"
 
 # Analysis timeout configuration (in seconds)
 dataFlowTimeout: 1800
@@ -117,7 +117,7 @@ pathReconstructionTimeout: 1800
 
 ```bash
 # Add execution permission to CoreIR processor
-chmod +x /Users/xxxxxx/Person/TMP/Batch/coreir_processor_macos_arm64
+chmod +x /Users/xxxxxx/Person/TMP/Batch/coreir_processor
 
 # Add execution permission to Blutter script
 chmod +x /Users/xxxxxx/Person/TMP/Batch/blutter-patch/blutter.py
