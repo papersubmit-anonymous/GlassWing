@@ -1,0 +1,73 @@
+# FlowDroid Analysis Configuration File
+# This file contains all configuration parameters for the FlowDroid static analysis tool.
+
+# Path to the Android SDK platform JAR file
+# Used to provide definitions for Android framework classes
+androidJars: "/Users/syc/Library/Android/sdk/platforms/android-30/android.jar"
+
+# Path to the Sources and Sinks configuration file
+# Defines the sources and sinks for data flow analysis
+sourcesAndSinks: "/Users/syc/Person/TMP/Batch/SourcesAndSinks.txt"
+
+# Path to the APK file to be analyzed
+# Supports both debug and release versions of APKs
+apkPath: "/Users/syc/Person/TMP/Batch/xxxx/app-release.apk"
+
+# Output file path for FlowDroid analysis results (without extension)
+# FlowDroid will automatically add the appropriate extension
+outputFile: "/Users/syc/Person/TMP/TmpAndroidProject/flowdroidFlutter"
+
+# CoreIR directory path
+# Used for CoreIR integration analysis (if enabled)
+coreIRDir: "/Users/syc/Person/Work/Glasswing/DSIR/coreirtmpBatch/out"
+
+# Final analysis result directory path
+# The system will automatically generate corresponding filenames based on preprocessorType:
+# - raw: analysis_results_raw.txt
+# - custom: analysis_results_custom.txt
+# - core: analysis_results_core.txt
+resultFile: "/Users/syc/Person/TMP/TmpAndroidProject/result/"
+
+# Analysis timeout configuration (in seconds)
+# Data flow analysis timeout
+dataFlowTimeout: 1800
+
+# Callback analysis timeout
+callbackAnalysisTimeout: 1800
+
+# Path reconstruction timeout
+pathReconstructionTimeout: 1800
+
+# Preprocessor type selection
+# Possible values:
+#   - "raw": No preprocessor is used (default)
+#   - "custom": Use CustomPreAnalysisHandler
+#   - "core": Use CorePreAnalysisHandler
+preprocessorType: "core"
+
+# DSIR related configuration
+# Path to the DSIR batch processor executable
+# Used to convert Blutter output to CoreIR format
+dsirBatchProcessorPath: "/Users/syc/Person/TMP/Batch/coreir_processor_macos_arm64"
+
+# Blutter output directory path
+# Contains the output results of the Blutter decompilation tool
+# This directory will be the first argument to dsir_batch_processor
+blutterOutputDir: "/Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/out"
+# /Users/syc/Person/TMP/TmpAndroidProject/blutter-patch-1/airdash
+
+# DSIR output directory path
+# Output directory for dsir_batch_processor
+# CoreIR files will be generated in the "out" subdirectory of this directory
+# The actual coreIRDir will be automatically set to: dsirOutputDir + "/out"
+dsirOutputDir: "/Users/syc/Person/TMP/SootProject/coreirtmpBatch"
+
+# Note:
+# 1. All paths should be absolute to avoid path resolution issues.
+# 2. If a configuration item does not exist in the YAML file, the default value will be used.
+# 3. These paths can be modified to suit different project environments.
+# 4. Ensure that all referenced files and directories exist and are accessible.
+# 5. Timeouts are in seconds and can be adjusted based on project complexity.
+# 6. The preprocessor type determines the depth and method of analysis.
+# 7. DSIR configuration is used for CoreIR preprocessing, ensure dsir_batch_processor has execution permissions.
+# 8. The actual CoreIR directory path is automatically derived from dsirOutputDir.

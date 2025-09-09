@@ -1,0 +1,87 @@
+FlowDroid and SuSi Classification Coverage Detailed Report
+================================================================================
+
+Source coverage details:
+----------------------------------------
+ACCOUNT_INFORMATION: <android.accounts.AccountManager: android.accounts.Account[] getAccounts()>
+BLUETOOTH_INFORMATION: <android.bluetooth.BluetoothAdapter: java.lang.String getAddress()>
+LOCATION_INFORMATION: <android.telephony.gsm.GsmCellLocation: int getCid()>
+LOCATION_INFORMATION: <android.telephony.gsm.GsmCellLocation: int getLac()>
+LOCATION_INFORMATION: <android.location.Location: double getLatitude()>
+LOCATION_INFORMATION: <android.location.Location: double getLongitude()>
+LOCATION_INFORMATION: <android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>
+NETWORK_INFORMATION: <android.net.wifi.WifiInfo: java.lang.String getMacAddress()>
+NETWORK_INFORMATION: <android.net.wifi.WifiInfo: java.lang.String getSSID()>
+UNIQUE_IDENTIFIER: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>
+UNIQUE_IDENTIFIER: <android.telephony.TelephonyManager: java.lang.String getLine1Number()>
+UNIQUE_IDENTIFIER: <android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>
+UNIQUE_IDENTIFIER: <android.telephony.TelephonyManager: java.lang.String getSubscriberId()>
+CALENDAR_INFORMATION: <java.util.Calendar: java.util.TimeZone getTimeZone()>
+NO_CATEGORY: <java.util.Locale: java.lang.String getCountry()>
+NO_CATEGORY: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+NO_CATEGORY: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)>
+NO_CATEGORY: <java.io.File: java.io.File getAbsoluteFile()>
+NO_CATEGORY: <java.io.File: java.io.File getCanonicalFile()>
+
+Sinks coverage details:
+----------------------------------------
+SMS_MMS: <android.telephony.SmsManager: void sendDataMessage(java.lang.String,java.lang.String,short,byte[],android.app.PendingIntent,android.app.PendingIntent)>
+SMS_MMS: <android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)>
+SMS_MMS: <android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>
+LOG: <android.util.Log: int d(java.lang.String,java.lang.String)>
+LOG: <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int e(java.lang.String,java.lang.String)>
+LOG: <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int i(java.lang.String,java.lang.String)>
+LOG: <android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int v(java.lang.String,java.lang.String)>
+LOG: <android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int w(java.lang.String,java.lang.String)>
+LOG: <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int w(java.lang.String,java.lang.Throwable)>
+LOG: <android.util.Log: int wtf(java.lang.String,java.lang.String,java.lang.Throwable)>
+NO_CATEGORY: <android.app.Activity: void startActivities(android.content.Intent[])>
+NO_CATEGORY: <android.app.Activity: void startActivityForResult(android.content.Intent,int)>
+NO_CATEGORY: <android.app.Activity: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>
+NO_CATEGORY: <android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>
+NO_CATEGORY: <android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>
+NO_CATEGORY: <android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>
+NO_CATEGORY: <android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>
+NO_CATEGORY: <android.content.ContextWrapper: void sendOrderedBroadcast(android.content.Intent,java.lang.String)>
+NO_CATEGORY: <android.content.Intent: android.content.Intent setAction(java.lang.String)>
+NO_CATEGORY: <android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>
+NO_CATEGORY: <android.os.Bundle: void putAll(android.os.Bundle)>
+NO_CATEGORY: <android.os.Bundle: void putBoolean(java.lang.String,boolean)>
+NO_CATEGORY: <android.os.Bundle: void putBooleanArray(java.lang.String,boolean[])>
+NO_CATEGORY: <android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>
+NO_CATEGORY: <android.os.Bundle: void putByte(java.lang.String,byte)>
+NO_CATEGORY: <android.os.Bundle: void putByteArray(java.lang.String,byte[])>
+NO_CATEGORY: <android.os.Bundle: void putChar(java.lang.String,char)>
+NO_CATEGORY: <android.os.Bundle: void putCharArray(java.lang.String,char[])>
+NO_CATEGORY: <android.os.Bundle: void putCharSequence(java.lang.String,java.lang.CharSequence)>
+NO_CATEGORY: <android.os.Bundle: void putCharSequenceArray(java.lang.String,java.lang.CharSequence[])>
+NO_CATEGORY: <android.os.Bundle: void putCharSequenceArrayList(java.lang.String,java.util.ArrayList)>
+NO_CATEGORY: <android.os.Bundle: void putDouble(java.lang.String,double)>
+NO_CATEGORY: <android.os.Bundle: void putDoubleArray(java.lang.String,double[])>
+NO_CATEGORY: <android.os.Bundle: void putFloat(java.lang.String,float)>
+NO_CATEGORY: <android.os.Bundle: void putFloatArray(java.lang.String,float[])>
+NO_CATEGORY: <android.os.Bundle: void putInt(java.lang.String,int)>
+NO_CATEGORY: <android.os.Bundle: void putIntArray(java.lang.String,int[])>
+NO_CATEGORY: <android.os.Bundle: void putIntegerArrayList(java.lang.String,java.util.ArrayList)>
+NO_CATEGORY: <android.os.Bundle: void putLong(java.lang.String,long)>
+NO_CATEGORY: <android.os.Bundle: void putLongArray(java.lang.String,long[])>
+NO_CATEGORY: <android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)>
+NO_CATEGORY: <android.os.Bundle: void putParcelableArray(java.lang.String,android.os.Parcelable[])>
+NO_CATEGORY: <android.os.Bundle: void putParcelableArrayList(java.lang.String,java.util.ArrayList)>
+NO_CATEGORY: <android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>
+NO_CATEGORY: <android.os.Bundle: void putShort(java.lang.String,short)>
+NO_CATEGORY: <android.os.Bundle: void putShortArray(java.lang.String,short[])>
+NO_CATEGORY: <android.os.Bundle: void putSparseParcelableArray(java.lang.String,android.util.SparseArray)>
+NO_CATEGORY: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>
+NO_CATEGORY: <android.os.Bundle: void putStringArray(java.lang.String,java.lang.String[])>
+NO_CATEGORY: <android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>
+NO_CATEGORY: <android.os.Handler: boolean sendMessage(android.os.Message)>
+NO_CATEGORY: <java.io.OutputStream: void write(byte[])>
+NO_CATEGORY: <java.io.OutputStream: void write(byte[],int,int)>
+NO_CATEGORY: <java.io.Writer: void write(char[])>
+NO_CATEGORY: <java.io.Writer: void write(java.lang.String)>
