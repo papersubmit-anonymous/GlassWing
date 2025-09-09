@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub Stars](https://img.shields.io/github/stars/papersubmit-anonymous/GlassWing?style=social)](https://github.com/papersubmit-anonymous/GlassWing/stargazers)
 [![arXiv](https://img.shields.io/badge/arXiv-coming.soon-b31b1b.svg)](https://arxiv.org/abs/YOUR_PAPER_ID)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/papersubmit-anonymous/GlassWing/build.yml?branch=main)](https://github.com/papersubmit-anonymous/GlassWing/actions)
+
 
 **GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java by revealing their implicit invocation relations for a more comprehensive analysis.**
 ![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
@@ -152,14 +152,6 @@ python flutter_apk_analyzer.py apkdir outdir
 # Using absolute paths
 python flutter_apk_analyzer.py /Users/xxxx/Person/TMP/Batch/apkdir /Users/xxxx/Person/TMP/Batch/outdir
 ```
-
-## 📜 How to cite
-
-If you use GlassWing in your research, please cite our paper:
-
-## 🤝 Contribution Guide
-
-We welcome contributions in any form! Whether it's submitting issues, fixing bugs, or suggesting new features, please feel free to create a Pull Request.
 
 ## 📄 License
 
