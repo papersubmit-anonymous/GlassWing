@@ -11,7 +11,7 @@ PS: The dataset is so huge , so we provide a [Dropbox](https://www.dropbox.com/s
 
 ## 📖 Introduction
 
-With the rise of cross-platform frameworks, **Flutter**, introduced by Google, has become the most popular choice for mobile app development. However, existing static analysis tools (e.g., Soot, FlowDroid) fail to "see" the **implicit invocations** between the Dart language used by Flutter and the native Java code of the Android platform. This analytical blind spot poses a significant threat to the security and completeness of mobile software analysis.
+With the rise of cross-platform frameworks, **Flutter**, introduced by Google, has become the most popular choice for mobile app development. However, existing static analysis tools (e.g., Soot, FlowDroid) fail to "see" the **implicit invocations** between the Dart language used by Flutter and the native Java/Kotlin code of the Android platform. This analytical blind spot poses a significant threat to the security and completeness of mobile software analysis.
 
 **GlassWing** is introduced to address this challenge. It is the first tailored static analysis approach for Flutter Android apps. By leveraging a data-flow-oriented approach, GlassWing extracts key program semantics and makes the previously invisible Dart-DEX invocation relations visible, effectively bridging the cross-language analysis gap.
 
