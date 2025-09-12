@@ -4,8 +4,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/papersubmit-anonymous/GlassWing?style=social)](https://github.com/papersubmit-anonymous/GlassWing/stargazers)
 [![arXiv](https://img.shields.io/badge/arXiv-coming.soon-b31b1b.svg)](https://arxiv.org/abs/YOUR_PAPER_ID)
 
-
-**GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java by revealing their implicit invocation relations for a more comprehensive analysis.**
+**GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java/Kotlin by revealing their implicit invocation relations for a more comprehensive analysis.**
 ![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
 
 PS: The dataset is so huge , so we provide a [Dropbox](https://www.dropbox.com/scl/fo/mbasmdn12j7izokd4skuk/ANrcRucnYwg98fI1nAMq5eA?rlkey=uavpcsnbvz3zo0b5lpz5rj180&st=aieabayk&dl=0) link for download 
@@ -14,12 +13,12 @@ PS: The dataset is so huge , so we provide a [Dropbox](https://www.dropbox.com/s
 
 With the rise of cross-platform frameworks, **Flutter**, introduced by Google, has become the most popular choice for mobile app development. However, existing static analysis tools (e.g., Soot, FlowDroid) fail to "see" the **implicit invocations** between the Dart language used by Flutter and the native Java code of the Android platform. This analytical blind spot poses a significant threat to the security and completeness of mobile software analysis.
 
-**GlassWing** is introduced to address this challenge. It is the first tailored static analysis approach for Flutter Android apps. By leveraging a data-flow-oriented approach, GlassWing extracts key program semantics and makes the previously invisible Dart-Java invocation relations visible, effectively bridging the cross-language analysis gap.
+**GlassWing** is introduced to address this challenge. It is the first tailored static analysis approach for Flutter Android apps. By leveraging a data-flow-oriented approach, GlassWing extracts key program semantics and makes the previously invisible Dart-DEX invocation relations visible, effectively bridging the cross-language analysis gap.
 
 ## ✨ Core Features
 
 - **🎯 First-of-its-Kind**: The pioneering static analysis enhancement solution specifically for Flutter Android apps.
-- **🌉 Cross-Language Bridge**: Automatically identifies and resolves implicit calls between Flutter's Dart code and Android's native Java code.
+- **🌉 Cross-Language Bridge**: Automatically identifies and resolves implicit calls between Flutter's Dart code and Android's native Java/Kotlin code.
 - **🔍 In-Depth Analysis**: Significantly enhances existing tools like Soot by increasing parsed code volume and call graph completeness.
 - **🛡️ Vulnerability Discovery**: Uncovers sensitive data leaks missed by traditional taint analysis tools like FlowDroid.
 - **🔌 Seamless Integration**: Can be easily incorporated into existing Android analysis pipelines, empowering downstream research fields such as program graph analysis, taint analysis, and malware detection.
