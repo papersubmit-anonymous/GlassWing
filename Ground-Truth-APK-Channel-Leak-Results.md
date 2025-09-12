@@ -208,7 +208,6 @@
 - Channel: com.yubico.authenticator.flutter_plugins.qr_scanner_channel
   - Source: android.net.wifi.WifiInfo: java.lang.String getMacAddress()
   - Sink:android.util.Log: int e(java.lang.String,java.lang.String)
-
 - Channel: android.devices.deviceInfo
   - Source: java.io.File: java.io.File getAbsoluteFile()
   - Sink: android.util.Log: int wtf(java.lang.String,java.lang.String,java.lang.Throwable)
@@ -230,9 +229,6 @@
 - Channel: android.fido.reset
   - Source: android.net.wifi.WifiInfo: java.lang.String getMacAddress()
   - Sink: android.os.Handler: boolean sendMessage(android.os.Message)
-- Channel: android.fido.registerFp
-  - Source: android.location.Location: double getLongitude()
-  - Sink: java.io.Writer: void write(char[])
 
 ## 16.ServerBox
 
