@@ -7,7 +7,7 @@
 **GlassWing is the first tailored static analysis approach for Flutter Android apps, designed to bridge the gap between Dart and Java/Kotlin by revealing their implicit invocation relations for a more comprehensive analysis.**
 ![image](https://github.com/papersubmit-anonymous/GlassWing/blob/main/fig/flutterAppOverviewNew_00.png)
 
-PS: The dataset is so huge , so we provide a [Dropbox](https://www.dropbox.com/scl/fo/mbasmdn12j7izokd4skuk/ANrcRucnYwg98fI1nAMq5eA?rlkey=uavpcsnbvz3zo0b5lpz5rj180&st=aieabayk&dl=0) link for download 
+PS: We provide a ground-truth benchmark and real-world dataset, which can be accessed via the following [Dropbox](https://www.dropbox.com/scl/fo/mbasmdn12j7izokd4skuk/ANrcRucnYwg98fI1nAMq5eA?rlkey=uavpcsnbvz3zo0b5lpz5rj180&st=aieabayk&dl=0) link.
 
 ## 📖 Introduction
 
