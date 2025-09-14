@@ -20,7 +20,7 @@ With the rise of cross-platform frameworks, **Flutter**, introduced by Google, h
 - **🎯 First-of-its-Kind**: The pioneering static analysis enhancement solution specifically for Flutter Android apps.
 - **🌉 Cross-Language Bridge**: Automatically identifies and resolves implicit calls between Flutter's Dart code and Android's native Java/Kotlin code.
 - **🔍 In-Depth Analysis**: Significantly enhances existing tools like Soot by increasing parsed code volume and call graph completeness.
-- **🛡️ Vulnerability Discovery**: Uncovers sensitive data leaks missed by traditional taint analysis tools like FlowDroid.
+- **🛡️ Potential Leak Discovery**: Uncovers potential sensitive data leaks missed by traditional taint analysis tools like FlowDroid.
 - **🔌 Seamless Integration**: Can be easily incorporated into existing Android analysis pipelines, empowering downstream research fields such as program graph analysis, taint analysis, and malware detection.
 
 ## 🛠️ How It Works
